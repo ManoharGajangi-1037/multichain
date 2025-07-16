@@ -23,7 +23,7 @@ export default function Navbar() {
               Router
             </Link>
             <Link
-              href="/pool"
+              href="/pools"
               className="text-[#979dac] hover:text-foreground  hover:text-white hover:font-semibold transition-colors text-[16px] leading-[16px]"
             >
               Pool

@@ -47,16 +47,16 @@ export default function RouterPage() {
         </div>
 
         {/* TO Card */}
-        <div className="rounded-xl bg-[#16182b] p-4 mb-6">
+        <div className="rounded-xl bg-[#16182b] p-4 mb-6  h-[182px]">
           <div className="flex justify-between mb-2 text-sm text-[#979dac]">
             <span>To</span>
             <span>Balance: -</span>
           </div>
           <div className="flex items-center gap-2">
             <Input
-              type="number"
+              type="text"
               placeholder="0.0"
-              className="text-2xl font-medium text-white bg-transparent border-none focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0"
+              className="text-2xl  border-0 border-b border-white font-medium text-white bg-transparent  focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0"
             />
             <div className="flex gap-2">
               <Button
